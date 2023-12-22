@@ -5,7 +5,7 @@ const ButtonContainer = styled.button`
     width: 120px;
     height: 30px;
     color: #fff;
-    background: linear-gradient(to bottom right, #e11b90, #333e79);
+    background: linear-gradient(to bottom right, #e11b90, #5c74f2);
     border: none;
     border-radius: 5px;
     font-size: 16px;

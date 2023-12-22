@@ -12,7 +12,7 @@ const LightEffect = styled.div`
     position: absolute;
     width: 200px; /* Ajuste o tamanho conforme necessário */
     height: 200px; /* Ajuste o tamanho conforme necessário */
-    background: radial-gradient(circle, rgba(0, 216, 230, 0.1) 10%, rgba(0, 0, 0, 0) 60%);
+    background: radial-gradient(circle, rgba(92, 116, 242, 0.1) 10%, rgba(0, 0, 0, 0) 60%);
     border-radius: 50%; /* Reduzindo ainda mais o border-radius para uma forma mais irregular */
     pointer-events: none;
     z-index: 1;

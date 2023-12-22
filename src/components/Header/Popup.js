@@ -21,6 +21,7 @@ const PopupContainer = styled.div`
     @media screen and (max-width: 768px) {
         background: url(${backgroundImage}) center/cover;
         background-repeat: no-repeat;
+        background-size: 110%;
         background-position: center;
     }
 `
@@ -47,7 +48,7 @@ const LinksPopUp = styled.a`
     transition: .3s;
 
     &:hover{
-        color: var(--color-medium);
+        color: #5c74f2;;
         scale: 1.1;
         transform: translate(8px);
     }
@@ -71,9 +72,9 @@ function Popup({ onClose }) {
             <PopupContent>
                 <LightEffect style={{ top: mousePosition.y, left: mousePosition.x}} />
                 <Links>
-                    <LinksPopUp href="#about" onClick={onClose}>Sobre</LinksPopUp>
-                    <LinksPopUp href="#portfolio" onClick={onClose}>Portfólio</LinksPopUp>
-                    <LinksPopUp href="#experience" onClick={onClose}>Experiência</LinksPopUp>
+                    <LinksPopUp href="#about" onClick={onClose}>SOBRE</LinksPopUp>
+                    <LinksPopUp href="#portfolio" onClick={onClose}>PORTFÓLIO</LinksPopUp>
+                    <LinksPopUp href="#experience" onClick={onClose}>EXPERIÊNCIA</LinksPopUp>
                     <ButtonContato/>
                 </Links>
             </PopupContent>
