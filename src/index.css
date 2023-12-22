@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-fundo);
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* paleta de cor */
+:root{
+  --color-primary-0: #0C0E0E;
+  --color-medium: #04594F;
+  --color-ligth: #6cebde;
+  --color-fundo: #000201;
+  --color-fundo-2: #2F2F2F;
+}
+
+/*definition the fonts*/
+@font-face {
+  font-family: 'PROXON';
+  src: url('../fonts/proxon.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url('../fonts/Gotham-Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ghotam Medium';
+  src: url('../fonts/GothamMedium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Light';
+  src: url('../fonts/GothamLight.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('../fonts/GothamBook.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
