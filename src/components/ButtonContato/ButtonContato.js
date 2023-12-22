@@ -4,8 +4,8 @@ import styled from "styled-components";
 const ButtonContainer = styled.button`
     width: 120px;
     height: 30px;
-    color: var(--color-fundo);
-    background-color: var(--color-ligth);
+    color: #fff;
+    background: linear-gradient(to bottom right, #e11b90, #333e79);
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -16,7 +16,7 @@ const ButtonContainer = styled.button`
 
     &:hover{
         scale: 1.1;
-        color: var(--color-medium);
+        color: #fff;
         transform: translate(8px);
     }
 

@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const LogoContainer = styled.div`
-    color: ${props => props.logoColor || 'var(--color-ligth)'};
+    color: #fff;
     font-family: 'PROXON';
     margin-top: 3px;
     font-size: 40px;

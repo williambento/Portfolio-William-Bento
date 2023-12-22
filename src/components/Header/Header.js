@@ -30,7 +30,7 @@ const HeaderContainerMobile = styled.header`
 `
 const Links = styled.div`
     display: flex;
-    color: var(--color-ligth);
+    color: #fff;
 `
 const LinkOpcao = styled.nav`
     padding: 20px;
@@ -41,7 +41,7 @@ const LinkOpcao = styled.nav`
     cursor: pointer;
 
     &:hover {
-        color: var(--color-medium);
+        color: #5c74f2;
     }
 `
 const ImgNavBar = styled.img`
@@ -58,9 +58,11 @@ const ImgNavBar = styled.img`
 function Header () {
 
     const [isPopupOpen, setPopupOpen] = useState(false);
+
     const togglePopup = () => {
         setPopupOpen(!isPopupOpen);
     };
+
     const closePopup = () => {
         setPopupOpen(false);
     };
@@ -68,21 +70,21 @@ function Header () {
     return (
         <>
             <HeaderContainerDesktop>
-                <Logo/>
+                <Logo />
                 <Links>
                     <LinkOpcao> SOBRE </LinkOpcao>
                     <LinkOpcao> PORTFÓLIO </LinkOpcao>
                     <LinkOpcao> EXPERIÊNCIA </LinkOpcao>
                 </Links>
-                <ButtonContato/>
+                <ButtonContato />
             </HeaderContainerDesktop>
             <HeaderContainerMobile>
-                <Logo/>
+                <Logo />
                 <ImgNavBar src={iconeNavbar} alt="icone nav bar" onClick={togglePopup} />
             </HeaderContainerMobile>
             {isPopupOpen && <Popup onClose={closePopup} />}
         </>
-    )
+    );
 }
 
 export default Header;
