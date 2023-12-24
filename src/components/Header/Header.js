@@ -8,10 +8,16 @@ import ButtonContato from "../ButtonContato/ButtonContato";
 
 const HeaderContainerDesktop = styled.header`
     background-color: var(--color-fundo);
-    min-height: 12vh;
+    /*max-width: 1200px;
+    margin: 0 auto;*/
+    min-height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* O z-index ajuda a garantir que o cabeçalho fique acima de outros elementos */
 
     @media screen and (max-width: 768px) {
         display: none;
@@ -23,6 +29,10 @@ const HeaderContainerMobile = styled.header`
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 
     @media screen and (min-width: 768px) {
        display: none;

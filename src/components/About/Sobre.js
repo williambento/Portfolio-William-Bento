@@ -10,8 +10,8 @@ const ContainerSobre = styled.section`
     background: url(${backImgDesk}) center/cover;
     background-repeat: no-repeat;
     background-position: center;
-
-    margin-top: -100px;
+    max-width: 1200px;
+    margin: 0 auto;
     
     @media screen and (max-width: 768px) {
         background: url(${backgroundImage}) center/cover;
@@ -31,7 +31,7 @@ const TituloSobre = styled.h1`
     font-size: 14px;
     letter-spacing: 5px;
     @media screen and (max-width: 768px) {
-        margin-top: -50px;
+        margin-top: -100px;
     }
 `
 const SubTituloSobre = styled.h2`

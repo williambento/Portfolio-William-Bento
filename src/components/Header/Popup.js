@@ -11,7 +11,7 @@ const PopupContainer = styled.div`
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -30,7 +30,7 @@ const PopupContent = styled.div`
     height: 100vh;
     padding: 10px;
     border-radius: 8px;
-    margin-top: 20px;
+    margin-top: 100px;
     padding: 10px 60px;
     display: flex;
     flex-direction: column;
